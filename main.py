@@ -13,7 +13,7 @@ client = Groq(
     api_key=os.environ.get("GROQ_API_KEY"),
 )
 
-st.title("Converse com o Alan") 
+st.title("Converse com o Alan - Especialista em Saúde da Mulher e Gravidez") 
 pergunta  = st.text_input('pergunta:')
 
 if st.button('enviar'):
